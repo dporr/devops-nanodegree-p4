@@ -1,0 +1,15 @@
+user@ubuntu:~/DevOps-nd-project-4$ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
+(.devops) user@ubuntu:~/DevOps-nd-project-4$ kubectl port-forward pod/udacity-p4 8000:80
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
